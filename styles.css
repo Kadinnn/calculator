@@ -1,0 +1,33 @@
+.container    {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 25% 25% 25% 25%;
+    margin-top: 5px;
+    max-width:750px;
+    box-shadow: 5px 5px 5px 5px rgba(153,153,153,153);
+ margin-bottom: 2.5px;
+ padding: 2.5px;
+
+}
+
+.number {
+    font-family: monospace;
+    color: black;
+}
+ 
+
+.background    {
+    background-color: blue;
+    border-style: ridge;
+    border-color: blue;
+    border-bottom-width: thick;
+    font-size: 3em;
+   
+    direction: rtl;
+    border-radius:12px;
+  }
+  
+  .inputBorder {
+      border-width: medium;
+      border-color: black;
+  }
